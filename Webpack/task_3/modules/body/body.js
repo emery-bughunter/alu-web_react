@@ -1,6 +1,6 @@
 import $ from "jquery";
 import _ from "lodash";
-import "../css/body.css";
+import "./body.css";
 
 $('body').append('<p>Dashboard data for the students</p>');
 $('body').append("<div id='counter'><button>Click here to get started</button><p id='count'></p></div>");
