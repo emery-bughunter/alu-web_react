@@ -1,0 +1,9 @@
+#counter {
+  display: flex;
+  align-items: center;
+}
+
+#count {
+  font-weight: bold;
+  margin-left: 10px;
+}
