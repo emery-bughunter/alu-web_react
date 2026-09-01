@@ -1,4 +1,6 @@
-import $ from "jquery";
-import "./footer.css";
+import $ from 'jquery';
+import './footer.css';
 
-$('body').append('<p>Copyright - Holberton School</p>');
+$(document).ready(() => {
+  $('body').append('<p>Copyright - Holberton School</p>');
+});
